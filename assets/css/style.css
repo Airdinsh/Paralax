@@ -19,11 +19,36 @@ html {
     background-attachment: fixed;
 }
 
+
+/* .sonne {
+    background-image: url(../img/heart.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+    background-position: right;
+    background-position-x: right;
+    padding-right: 40px;
+    padding-top: 40px;
+} */
+
+/* .action {
+
+    float: right;
+    font-family: 'Roboto Condensed';
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: #e7bc0e;
+    width: 90px;
+ 
+} */
+
 .little {
     display: inline-block;
     float: right;
     width: 110px;
     font-family: 'Roboto Condensed';
+    text-decoration-line: underline;
+    text-decoration-color: #e7bc0e;
     text-align: right;
     font-size: 20px;
     color: white;
@@ -37,7 +62,6 @@ html {
 .little {
     font-size: 15px;
     padding-right: 100px;
-
 }
 
 
@@ -55,6 +79,20 @@ h1 {
     width: 650px;
 }
 
+
+
+/* .sonne {
+    background-image: url(../img/heart.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    float: right;
+
+} */
+
+
+
+
 #firsth1 {
     color: #6bc1a3;
     line-height: 40px;
@@ -69,8 +107,9 @@ h1 {
     color: #e7bc0e;
     letter-spacing: 1px;
     margin-bottom: 400px;
-
     }
+
+
 
 
 img {
@@ -148,6 +187,14 @@ id {
 }
 
 
+.kids {
+    background-image: url(../img/kid.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    background-color: black;
+} 
 
 #last {
     padding-left: 350px;
@@ -157,22 +204,13 @@ id {
     height: 800px;
 }
 
+
+
 .last {
     width: 100vw;
     height: 600px;
     background-color: #000;
 }
-
-
-.kids {
-    background-image: url(../img/kid.png.jpg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-    background-color: black;
-} 
 
 
 
@@ -196,23 +234,24 @@ id {
     margin-left: 120px;
     font-family: 'Roboto Condensed';
 
+
 }
 
 /* .box:hover  {
-    transform: scaleZ(1.5);
-}
- */
+    transform: translate(1.5)
+} */
+ 
 .end {
     padding-top: 20px;
     text-align: center;
     margin-top: 0;
-    background-color: black;
     height: 50px;
     font-size: 12px;
     color: white;
     font-family: 'Roboto Condensed';
 
 }
+
 
 a:link {
     text-decoration: none;
