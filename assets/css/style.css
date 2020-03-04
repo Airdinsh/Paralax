@@ -135,27 +135,78 @@ id {
     margin-bottom: 400px;
 }
 
-.kids {
-    margin-top: 0;
-    background-image: url(../img/kid.png.jpg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    background-position: center;
-    background-size: cover;
-    background-color: lightgray;
-    margin-left: 0;
-} 
 
-.last {
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 00px;
-    color: #000;
-}
 
 #last {
     padding-left: 350px;
     line-height: 40px;
     color: #7eb8e1;
     width: 500px;
+    height: 800px;
+}
+
+.last {
+    width: 100vw;
+    height: 600px;
+    background-color: #000;
+}
+
+
+.kids {
+    background-image: url(../img/kid.png.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    background-color: black;
+} 
+
+
+
+.last p {
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 3em;
+    width: 430px;
+    padding-top: 160px;
+    padding-left: 120px;
+}
+
+.box {
+    margin: 120px;
+    border: solid 1px white;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Roboto Condensed';
+
+}
+
+.box:hover  {
+    transform: scaleZ(1.5);
+}
+
+.end {
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 0;
+    background-color: black;
+    height: 50px;
+    font-size: 12px;
+    color: white;
+    font-family: 'Roboto Condensed';
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #6bc1a3 ;
+
+
+}
+a:visited {
+    color: #6bc1a3 ;
 }
