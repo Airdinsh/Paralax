@@ -3,6 +3,7 @@
 body,
 html {
   margin: 0;
+  padding: 0;
 }
 
 
@@ -18,12 +19,34 @@ html {
     background-attachment: fixed;
 }
 
+.little {
+    display: inline-block;
+    float: right;
+    width: 110px;
+    font-family: 'Roboto Condensed';
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    line-height: 0px;
+    background-image: url(../img/heart.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}
+
+.little {
+    font-size: 15px;
+    padding-right: 100px;
+
+}
+
 
 #start {
     color: white;
     width: 250px;
     font-size: 3em;
     margin-left: 120px;
+    padding-top: 60px;
 }
 
 h1 {  
@@ -62,17 +85,6 @@ id {
     background-color: rgb(41, 41, 41);
 }
 
-.little {
-    background-image: url(../img/heart.svg);
-    background-repeat: no-repeat;
-    width: 90px;
-    font-family: 'Roboto Condensed';
-    font-size: 7px;
-    text-align: right;
-    padding-right: 15vw;
-    font-size: 20px;
-    color: white;
-}
 
 
 
@@ -174,23 +186,24 @@ id {
 }
 
 .box {
-    margin: 120px;
+    margin: 10px;
     border: solid 1px white;
     width: 90px;
     height: 30px;
     text-align: center;
     color: white;
     padding-top: 10px;
+    margin-left: 120px;
     font-family: 'Roboto Condensed';
 
 }
 
-.box:hover  {
+/* .box:hover  {
     transform: scaleZ(1.5);
 }
-
+ */
 .end {
-    padding-top: 80px;
+    padding-top: 20px;
     text-align: center;
     margin-top: 0;
     background-color: black;
