@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto+Condensed:400,700|Roboto:400,500,700,900&display=swap');
-
-/* body,
+body,
 html {
   margin: 0;
   padding: 0;
 }
- */
 
+
+@font-face {
+    font-family: "Santio Bold";
+    src: url("../fonts/SANTIO/TTF/Santio Bold.ttf");
+  }
 
 
 .parallax {
@@ -43,10 +46,11 @@ html {
 } */
 
 .little {
+    margin-top: 20px;
     display: inline-block;
     float: right;
     width: 110px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     text-decoration-line: underline;
     text-decoration-color: #e7bc0e;
     text-align: right;
@@ -71,10 +75,11 @@ html {
     font-size: 3em;
     margin-left: 120px;
     padding-top: 60px;
+    margin-top: 0;
 }
 
 h1 {  
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     color: #6bc1a3;
     width: 650px;
 }
@@ -96,8 +101,8 @@ h1 {
 #firsth1 {
     color: #6bc1a3;
     line-height: 40px;
-    width: 580px;
-    margin-left: 200px;
+    width: 70vh;
+    margin-left: 10em;
 
 }
 
@@ -114,7 +119,7 @@ h1 {
 
 img {
     margin-top: 300px;
-    padding-left: 250px;
+    padding-left: 22rem;
     height: 110px;
 
 }
@@ -128,62 +133,62 @@ id {
 
 
 .big {
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 120px;
     color: #e7bc0e;
-    margin-top: 0px;
+    margin-top: 5vh;
     margin-bottom: 0;
-    padding-left: 250px;
+    padding-left: 22rem;
 
 }
 
 .small {
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 30px;
     color: #e7bc0e;
-    margin-top: 20px;
+    margin-top: 1vh;
     margin-bottom: 0;
-    padding-left: 250px;
+    padding-left: 22rem;
 
 }
 
 .small2 {
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 30px;
     color: #cb91b6;
     margin-bottom: 0;
-    padding-left: 250px;
+    padding-left: 22rem;
 
 }
 
 .big2 {
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 120px;
     color: #cb91b6;
-    margin-top: 0;
-    padding-left: 250px;
+    margin-top: 5vh;
+    padding-left: 22rem;
 
 }
 
 
 .big3 {
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 120px;
     color: #6bc1a3;
-    margin-top: 0;
+    margin-top: 5vh;
     margin-bottom: 0;
-    padding-left: 250px;
+    padding-left: 22rem;
 
 
 }
 
 .small3 {
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 30px;
     color: #6bc1a3;
     margin-top: 0;
-    padding-left: 250px;
-    margin-bottom: 400px;
+    padding-left: 22rem;
+    margin-bottom: 90vh;
 }
 
 
@@ -211,45 +216,47 @@ id {
 
 article {
     color: white;
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
     font-size: 3em;
     width: 430px;
-    padding-top: 160px;
-    padding-left: 120px;
+    padding-top: 40vh;
+    padding-left: 30vh;
     text-align: left;
     margin-bottom: 20vh;
     
 }
 
 #last {
-    padding-left: 350px;
+    padding-left: 30rem;
     line-height: 40px;
     color: #7eb8e1;
-    width: 500px;
+    width: 80vh;
+    height: 100%;
     margin-bottom: 150px;
 }
 
 .box {
     border: solid 1px white;
-    width: 90px;
-    height: 30px;
+    width: 13vh;
+    height: 3.5vh;
     text-align: center;
     color: white;
     padding-top: 10px;
-    margin-left: 120px;
-    font-family: 'Roboto Condensed';
+    margin-left: 30vh;
+    font-family: 'Santio Bold';
     margin-bottom: 20vh;
 }
 
-/* .box:hover  {
-    transform: translate(1.5)
-} */
+.box:hover  {
+    background-color: rgb(66, 65, 65);
+} 
  
-.end p {
+.end  {
     text-align: center;
     font-size: 12px;
     color: white;
-    font-family: 'Roboto Condensed';
+    font-family: 'Santio Bold';
+    margin-bottom: 5rem;
 
 }
 
